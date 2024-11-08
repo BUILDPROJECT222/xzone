@@ -7,7 +7,7 @@ import { NodeWallet } from "../../../utils/walletUtils";
 import idl from "../../../idl/solana_twitter.json";
 
 const programID = new PublicKey(process.env.NEXT_PUBLIC_PROGRAM_ID as string);
-const connection = new Connection(clusterApiUrl("devnet"), "processed");
+const connection = new Connection(clusterApiUrl("mainnet-beta"), "processed");
 
 async function fetchTweets(req: NextApiRequest, res: NextApiResponse) {
   try {
