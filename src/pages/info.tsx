@@ -58,12 +58,12 @@ const InfoPage: React.FC = () => {
             </li>
             <li className="mb-2">
               <span className="underline">
-                [X](https://app.solanax.co/)
+                [X](https://xzonesol.io/)
               </span>
               : Create links using square brackets and parentheses. Renders as{" "}
               <a
                 className="underline text-purple-500"
-                href="https://app.solanax.co/"
+                href="https://xzonesol.io/"
               >
                 X
               </a>
@@ -71,7 +71,7 @@ const InfoPage: React.FC = () => {
             </li>
             <li className="mb-2">
               <span className="font-bold">
-                {'<img link="https://i.ibb.co/pfWFwRV/logo-X.png" />'}
+                {'<img link="https://i.ibb.co.com/JcpwTgG/logo.jpg" />'}
               </span>
               : Use this syntax to indicate an image in your tweet. Renders as{" "}
               <img src="/logo.png" alt="logo" className="w-8 h-8" />
